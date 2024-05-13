@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+html{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url('fond.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 250ms;
+}
+
+#game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game_title_h1{
+    font-family: 'Passion One', cursive;
+    font-size: 60px;
+    height: 50px;
+    color: #000000;
+}
+
+#game_title_p{
+    font-family: 'Passion One', cursive;
+    font-size: 25px;
+    color: #000000;
+}
+
+/* Main game */
+
+#game_box{
+    scale: 0.95;
+    display: flex;
+    justify-content: center;
+}
+
+#snakey{
+    width: 510px;
+    height: 510px;
+    background-image: url(Themes/green-chess.png);
+    border-radius: 25px;
+    border: 10px solid rgb(45, 45, 45);
+    transition: 250ms;
+}
