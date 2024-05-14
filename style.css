@@ -61,3 +61,66 @@ body {
     border: 10px solid rgb(45, 45, 45);
     transition: 250ms;
 }
+
+
+/* SCORE */
+
+#score-input {
+  border-radius: 10px;
+  display: flex;
+  margin-left: 75px;
+  border-radius: 15px;
+  border: 7.5px solid rgb(45, 45, 45);
+}
+
+#scores {
+  text-align: center;
+  background-color: white;
+  width: 120px;
+}
+
+#scores h4 {
+  background-color: rgb(45, 45, 45);
+  padding: 5px;
+  color: white;
+}
+
+#scores p {
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#scores:nth-child(1){
+  border-bottom-left-radius: 10px;
+}
+
+#scores:nth-child(2){
+  border-bottom-right-radius: 10px;
+}
+
+/* THEMES DU JEU */
+#theme{
+  padding: 5px;
+  background: rgb(45, 45, 45);
+  border-radius: 20px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#themes-click{
+  margin: 5px;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: 100ms;
+}
+
+#themes-click:hover{
+  transform: scale(1.1);
+  transition: 100ms;
+}
