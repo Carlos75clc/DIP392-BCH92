@@ -4,7 +4,7 @@ window.onload = function(){
     var canvasHeight = 510;
     var Blocksize = 30;
     var ctx;
-    var delay = 80;
+    var delay = 90;
     var snakey;
     var appley;
     var widthinBlocks = canvasWidth/Blocksize;
