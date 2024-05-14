@@ -285,7 +285,6 @@ window.onload = function(){
     }
 }
 
-
 /*      THEMES      */
 
 function fond_light(){
