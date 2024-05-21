@@ -8,7 +8,7 @@ Welcome to the classic Snake game! Control the snake, eat apples, and grow longe
 ## How to Play
 1. **Starting the Game:**
    - Open the `index.html` file in a web browser.
-   - Click on the "Start Game" button to begin.
+   - Press space to "Start Game"
 
 2. **Game Controls:**
    - Use the arrow keys (Up, Down, Left, Right) to move the snake.
